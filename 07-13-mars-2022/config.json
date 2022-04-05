@@ -14,8 +14,8 @@
   },
   "legend": {
     "edgeLabel": "Achat de publicités sur le même mot-clef",
-    "colorLabel": "Mots-clefs de la campagne",
-    "nodeLabel": "Annonceur"
+    "colorLabel": "Mots-clefs les plus communément cités de la campagne",
+    "nodeLabel": "Pages (classées par dépenses)"
   },
   "features": {
     "search": false,
