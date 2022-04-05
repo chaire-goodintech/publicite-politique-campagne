@@ -8,7 +8,7 @@
     "text": "Jules Rostand"
   },
   "text": {
-    "more": "À partir des données de Meta (Facebook et Instagram), les thèmes et les mots de la campagne sont étudiés à travers une analyse de graphe. Pour chaque plateforme, les nœuds correspondent à un annonceur. Un lien n'est pas une publicité mais, pour deux annonceurs, le fait d’avoir acheté au moins une fois une publicités sur le même thème, c’est-à-dire identifiée dans les données collectées par le même mot-clef.",
+    "more": "Ce baromètre cherche à donner à voir les acteurs qui participent par leurs publicités à la fabrique de l'opinion publique. À partir d'un lexique des mots de la campagne, réalisé sur la base du comparateur des programmes du journal le Monde, ces graphes présentent, chaque semaine, le réseau des pages sur les plateformes de Meta (Facebook et Instagram) qui communiquent ces mots de la campagne. Ces pages, qui représentent les noeuds du réseau, sont liées entre elles par le fait d'avoir acheté, au moins une fois sur la période, une publicité sur le même thème. Autrement dit, cela signifie que deux pages sont liées entre elles lorsqu'un même mot-clef de la liste a pu être identifié dans l'ensemble des publicités qu'elles financent sur la semaine. Les liens qui s'affichent en couleur sont ainsi, dans la proportion indiquée par la légende, les mots-clefs les plus cités dans les annonces publicitaires. Cela permet de construire un indicateur de la centralité des mots de la campagne dans le panorama publicitaire.",
     "intro": "Ce graphe présente les annonceurs sur <strong>Meta (Facebook et Instagram)</strong>, liées par l\u0027achat de publicités sur des thèmes similaires.",
     "title": "Publicités politiques pendant la campagne électorale"
   },
