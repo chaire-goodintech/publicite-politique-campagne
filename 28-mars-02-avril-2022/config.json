@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "images/goodintech-logo.png",
+    "link": "https://www.goodintech.org/",
+    "text": "Jules Rostand"
+  },
+  "text": {
+    "more": "À partir des données de Meta (Facebook et Instagram), les thèmes et les mots de la campagne sont étudiés à travers une analyse de graphe. Pour chaque plateforme, les nœuds correspondent à un annonceur. Un lien n'est pas une publicité mais, pour deux annonceurs, le fait d’avoir acheté au moins une fois une publicités sur le même thème, c’est-à-dire identifiée dans les données collectées par le même mot-clef.",
+    "intro": "Ce graphe présente les annonceurs sur <strong>Meta (Facebook et Instagram)</strong>, liées par l\u0027achat de publicités sur des thèmes similaires.",
+    "title": "Publicités politiques pendant la campagne électorale"
+  },
+  "legend": {
+    "edgeLabel": "Achat de publicités sur le même mot-clef",
+    "colorLabel": "Mots-clefs les plus communément cités de la campagne",
+    "nodeLabel": "Pages (classées par dépenses)"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 2.85,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.1,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
