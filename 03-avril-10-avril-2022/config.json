@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "images/goodintech-logo.png",
+    "link": "https://www.goodintech.org/",
+    "text": "Jules Rostand"
+  },
+  "text": {
+    "more": "Ce baromètre cherche à donner à voir les acteurs qui participent par leurs publicités à la fabrique de l'opinion publique. À partir d'un lexique des mots de la campagne, réalisé sur la base du comparateur des programmes du journal le Monde, ces graphes présentent, chaque semaine, le réseau des pages sur les plateformes de Meta (Facebook et Instagram) qui communiquent ces mots de la campagne. Ces pages, qui représentent les noeuds du réseau, sont liées entre elles par le fait d'avoir acheté, au moins une fois sur la période, une publicité sur le même thème. Autrement dit, cela signifie que deux pages sont liées entre elles lorsqu'un même mot-clef de la liste a pu être identifié dans l'ensemble des publicités qu'elles financent sur la semaine. Les liens qui s'affichent en couleur sont ainsi, dans la proportion indiquée par la légende, les mots-clefs les plus cités dans les annonces publicitaires. Cela permet de construire un indicateur de la centralité des mots de la campagne dans le panorama publicitaire.",
+    "intro": "Ce graphe présente les annonceurs sur <strong>Meta (Facebook et Instagram)</strong>, liées par l\u0027achat de publicités sur des thèmes similaires.",
+    "title": "Publicités politiques pendant la campagne électorale"
+  },
+  "legend": {
+    "edgeLabel": "Achat de publicités sur le même mot-clef",
+    "colorLabel": "Mots-clefs les plus communément cités de la campagne",
+    "nodeLabel": "Pages (classées par dépenses)"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 2.85,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.1,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
